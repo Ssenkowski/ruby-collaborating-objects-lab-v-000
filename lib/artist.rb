@@ -17,6 +17,7 @@ class Artist
     if @@all.find(artist) == nil
       self.new
     else @@all.find(artist)
+    end
   end
 
   def print_songs
