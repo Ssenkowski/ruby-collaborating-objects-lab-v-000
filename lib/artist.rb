@@ -7,7 +7,7 @@ class Artist
   end
 
   def save(artist)
-    @artist = artist
+    
   end
 
 end
