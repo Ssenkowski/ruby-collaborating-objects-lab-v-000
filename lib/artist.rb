@@ -10,6 +10,7 @@ class Artist
 
   def songs(song)
     @song = song
+    @songs << @song
   end
 
   def save(artist)
