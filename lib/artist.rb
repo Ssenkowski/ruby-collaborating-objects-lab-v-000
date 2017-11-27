@@ -14,9 +14,9 @@ class Artist
   end
 
   def self.find_or_create_by_name(artist)
-    if @@all == nil 
+    if @@all.find(artist) == nil
       self.new
-    else
+    else @@all.find(artist)
   end
 
   def print_songs
